@@ -53,7 +53,7 @@ namespace CowsAndBulls
  {
      while (valid == false)
      {
-         while (guess.Length != 4)
+         while (guess.Length != 4 || guess.Substring(0,1) == "0")
          {
              Console.WriteLine("Enter a 4 digit number with unique digits and not beginning with 0.");
              guess = Console.ReadLine();
@@ -202,9 +202,9 @@ namespace CowsAndBulls
              guessFirstChar = Convert.ToString(secondDigit);
              guessFirstChar = Convert.ToString(thirdDigit);
              guessFirstChar = Convert.ToString(fourthDigit);
-               }            
-             }           
-           }          
-         }
-       }
-     }
+                    }            
+                }           
+            }          
+        }
+    }
+}
