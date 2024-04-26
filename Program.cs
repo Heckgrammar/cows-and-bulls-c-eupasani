@@ -119,68 +119,68 @@ namespace CowsAndBulls
 
          if (guessFirstChar == firstChar)
          {
-             Bulls = Bulls + 1;
+             Bulls++;
          }
          else if (guessFirstChar == secondChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessFirstChar == thirdChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessFirstChar == fourthChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
 
          if (guessSecondChar == secondChar)
          {
-             Bulls = Bulls + 1;
+             Bulls++;
          }
          else if (guessSecondChar == firstChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessSecondChar == thirdChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessSecondChar == fourthChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          if (guessThirdChar == thirdChar)
          {
-             Bulls = Bulls + 1;
+            Bulls++;
          }
          else if (guessThirdChar == secondChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessThirdChar == firstChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessThirdChar == fourthChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          if (guessFourthChar == fourthChar)
          {
-             Bulls = Bulls + 1;
+             Bulls++;
          }
          else if (guessFourthChar == secondChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessFourthChar == thirdChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          else if (guessFourthChar == firstChar)
          {
-             Cows = Cows + 1;
+             Cows++;
          }
          if (Bulls == 4)
          {
